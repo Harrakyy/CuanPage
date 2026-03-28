@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
+export const dynamic = 'force-dynamic'
 
 interface Project {
   id: string
