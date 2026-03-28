@@ -1,5 +1,5 @@
-'use client'
 export const dynamic = 'force-dynamic'
+'use client'
 import { createClient } from '@/lib/supabase/client'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
